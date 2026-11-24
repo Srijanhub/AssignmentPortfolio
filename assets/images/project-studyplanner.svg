@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p2-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064E3B" />
+      <stop offset="100%" stop-color="#0F766E" />
+    </linearGradient>
+  </defs>
+  <rect width="500" height="300" rx="16" fill="url(#p2-bg)" />
+  <!-- Card Mockup -->
+  <rect x="40" y="30" width="420" height="240" rx="12" fill="#042F2E" stroke="#14B8A6" stroke-width="1.5" />
+  
+  <text x="65" y="65" font-family="sans-serif" font-size="16" font-weight="bold" fill="#2DD4BF">📚 Study Buddy &amp; Daily Planner</text>
+  <text x="65" y="85" font-family="sans-serif" font-size="11" fill="#99F6E4">Organize Sem-1 coursework, syllabus &amp; milestones</text>
+
+  <!-- Checklist items -->
+  <g transform="translate(65, 105)">
+    <rect x="0" y="0" width="370" height="34" rx="6" fill="#134E4A" />
+    <circle cx="20" cy="17" r="8" fill="#10B981" />
+    <text x="16" y="21" font-family="sans-serif" font-size="11" fill="#FFF" font-weight="bold">✓</text>
+    <text x="40" y="21" font-family="sans-serif" font-size="12" fill="#F0FDFA">Finish Physics Lab Report - Exp 4</text>
+    <rect x="300" y="7" width="55" height="20" rx="4" fill="#047857" />
+    <text x="327" y="21" font-family="sans-serif" font-size="10" fill="#A7F3D0" text-anchor="middle">Done</text>
+  </g>
+
+  <g transform="translate(65, 148)">
+    <rect x="0" y="0" width="370" height="34" rx="6" fill="#134E4A" />
+    <circle cx="20" cy="17" r="8" fill="#10B981" />
+    <text x="16" y="21" font-family="sans-serif" font-size="11" fill="#FFF" font-weight="bold">✓</text>
+    <text x="40" y="21" font-family="sans-serif" font-size="12" fill="#F0FDFA">C Programming: Pointer arithmetic notes</text>
+    <rect x="300" y="7" width="55" height="20" rx="4" fill="#047857" />
+    <text x="327" y="21" font-family="sans-serif" font-size="10" fill="#A7F3D0" text-anchor="middle">Done</text>
+  </g>
+
+  <g transform="translate(65, 191)">
+    <rect x="0" y="0" width="370" height="34" rx="6" fill="#115E59" stroke="#2DD4BF" stroke-dasharray="3,3" />
+    <circle cx="20" cy="17" r="8" fill="none" stroke="#5EEAD4" stroke-width="2" />
+    <text x="40" y="21" font-family="sans-serif" font-size="12" fill="#FFFFFF">Build Web Portfolio responsive layout</text>
+    <rect x="290" y="7" width="70" height="20" rx="4" fill="#0D9488" />
+    <text x="325" y="21" font-family="sans-serif" font-size="10" fill="#CCFBF1" text-anchor="middle">In Progress</text>
+  </g>
+
+  <!-- Progress bar -->
+  <rect x="65" y="240" width="280" height="8" rx="4" fill="#134E4A" />
+  <rect x="65" y="240" width="190" height="8" rx="4" fill="#2DD4BF" />
+  <text x="360" y="248" font-family="sans-serif" font-size="11" fill="#5EEAD4">68% Complete</text>
+</svg>

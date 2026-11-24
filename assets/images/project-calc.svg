@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p3-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#78350F" />
+      <stop offset="100%" stop-color="#9A3412" />
+    </linearGradient>
+  </defs>
+  <rect width="500" height="300" rx="16" fill="url(#p3-bg)" />
+  <!-- Calculator Body -->
+  <rect x="70" y="30" width="360" height="240" rx="12" fill="#1C1917" stroke="#F59E0B" stroke-width="1.5" />
+  
+  <text x="95" y="60" font-family="sans-serif" font-size="14" font-weight="bold" fill="#FBBF24">📊 College GPA &amp; Marks Calculator</text>
+
+  <!-- Screen -->
+  <rect x="95" y="75" width="310" height="45" rx="6" fill="#0C0A09" stroke="#44403C" />
+  <text x="390" y="96" font-family="monospace" font-size="11" fill="#A8A29E" text-anchor="end">Semester 1 Credits: 22</text>
+  <text x="390" y="113" font-family="monospace" font-size="16" font-weight="bold" fill="#34D399" text-anchor="end">SGPA: 9.25 / 10.0</text>
+
+  <!-- Interactive buttons grid -->
+  <g transform="translate(95, 135)">
+    <rect x="0" y="0" width="70" height="35" rx="6" fill="#292524" />
+    <text x="35" y="22" font-family="sans-serif" font-size="11" fill="#F5F5F4" text-anchor="middle">Maths-I</text>
+
+    <rect x="80" y="0" width="70" height="35" rx="6" fill="#292524" />
+    <text x="115" y="22" font-family="sans-serif" font-size="11" fill="#F5F5F4" text-anchor="middle">C Prog</text>
+
+    <rect x="160" y="0" width="70" height="35" rx="6" fill="#292524" />
+    <text x="195" y="22" font-family="sans-serif" font-size="11" fill="#F5F5F4" text-anchor="middle">Physics</text>
+
+    <rect x="240" y="0" width="70" height="35" rx="6" fill="#D97706" />
+    <text x="275" y="22" font-family="sans-serif" font-size="11" font-weight="bold" fill="#FFF" text-anchor="middle">Grade A+</text>
+
+    <rect x="0" y="45" width="70" height="35" rx="6" fill="#292524" />
+    <text x="35" y="67" font-family="sans-serif" font-size="11" fill="#F5F5F4" text-anchor="middle">Digital El.</text>
+
+    <rect x="80" y="45" width="70" height="35" rx="6" fill="#292524" />
+    <text x="115" y="67" font-family="sans-serif" font-size="11" fill="#F5F5F4" text-anchor="middle">Eng. Comm</text>
+
+    <rect x="160" y="45" width="70" height="35" rx="6" fill="#292524" />
+    <text x="195" y="67" font-family="sans-serif" font-size="11" fill="#F5F5F4" text-anchor="middle">C Lab</text>
+
+    <rect x="240" y="45" width="70" height="35" rx="6" fill="#059669" />
+    <text x="275" y="67" font-family="sans-serif" font-size="11" font-weight="bold" fill="#FFF" text-anchor="middle">Calculate</text>
+
+    <rect x="0" y="90" width="150" height="32" rx="6" fill="#44403C" />
+    <text x="75" y="111" font-family="sans-serif" font-size="11" fill="#E7E5E4" text-anchor="middle">Reset All Fields</text>
+
+    <rect x="160" y="90" width="150" height="32" rx="6" fill="#B45309" />
+    <text x="235" y="111" font-family="sans-serif" font-size="11" font-weight="bold" fill="#FFF" text-anchor="middle">Export Summary</text>
+  </g>
+</svg>

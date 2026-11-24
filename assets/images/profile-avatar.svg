@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="50%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+    <linearGradient id="avatar-shirt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <filter id="avatar-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background Circle with vibrant gradient border -->
+  <circle cx="200" cy="200" r="185" fill="#18181B" stroke="url(#bg-grad)" stroke-width="8" filter="url(#avatar-shadow)" />
+
+  <!-- Background glow inside circle -->
+  <circle cx="200" cy="180" r="140" fill="#4F46E5" opacity="0.15" />
+
+  <!-- Code snippet subtle decorative symbols -->
+  <text x="70" y="110" font-family="monospace" font-size="22" font-weight="bold" fill="#818CF8" opacity="0.5">&lt;dev&gt;</text>
+  <text x="290" y="130" font-family="monospace" font-size="20" font-weight="bold" fill="#C084FC" opacity="0.5">{ ... }</text>
+  <text x="60" y="280" font-family="monospace" font-size="20" font-weight="bold" fill="#F472B6" opacity="0.5">const s;</text>
+
+  <!-- Group for Avatar character -->
+  <g id="character" transform="translate(0, 15)">
+    <!-- Shoulders / Hoodie -->
+    <path d="M110 340 C110 270, 140 245, 200 245 C260 245, 290 270, 290 340 Z" fill="url(#avatar-shirt)" />
+    <!-- Hoodie V-neck collar & drawstrings -->
+    <path d="M175 245 L200 280 L225 245 Z" fill="#334155" />
+    <line x1="188" y1="265" x2="185" y2="305" stroke="#CBD5E1" stroke-width="3" stroke-linecap="round" />
+    <line x1="212" y1="265" x2="215" y2="305" stroke="#CBD5E1" stroke-width="3" stroke-linecap="round" />
+
+    <!-- Neck -->
+    <rect x="182" y="195" width="36" height="45" rx="6" fill="#FBBF24" opacity="0.85" />
+
+    <!-- Head / Face -->
+    <ellipse cx="200" cy="165" rx="55" ry="62" fill="#FDE68A" />
+
+    <!-- Hair (Youthful, slightly messy student style) -->
+    <path d="M142 160 C140 120, 160 90, 200 88 C240 86, 260 115, 258 160 C250 140, 240 125, 200 125 C165 125, 152 142, 142 160 Z" fill="#1E293B" />
+    <!-- Hair fringe strands -->
+    <path d="M165 110 Q185 130 190 120" stroke="#1E293B" stroke-width="6" fill="none" stroke-linecap="round" />
+    <path d="M195 105 Q215 132 225 122" stroke="#1E293B" stroke-width="6" fill="none" stroke-linecap="round" />
+
+    <!-- Eyebrows -->
+    <path d="M168 145 Q180 140 188 145" stroke="#334155" stroke-width="3.5" fill="none" stroke-linecap="round" />
+    <path d="M212 145 Q220 140 232 145" stroke="#334155" stroke-width="3.5" fill="none" stroke-linecap="round" />
+
+    <!-- Eyes (Friendly, bright eyes) -->
+    <ellipse cx="178" cy="155" rx="5" ry="6" fill="#1E293B" />
+    <circle cx="176" cy="153" r="1.5" fill="#FFFFFF" />
+    <ellipse cx="222" cy="155" rx="5" ry="6" fill="#1E293B" />
+    <circle cx="220" cy="153" r="1.5" fill="#FFFFFF" />
+
+    <!-- Glasses (Modern round developer frames) -->
+    <rect x="160" y="142" width="34" height="26" rx="9" fill="none" stroke="#4F46E5" stroke-width="3" />
+    <rect x="206" y="142" width="34" height="26" rx="9" fill="none" stroke="#4F46E5" stroke-width="3" />
+    <line x1="194" y1="154" x2="206" y2="154" stroke="#4F46E5" stroke-width="3" />
+
+    <!-- Nose -->
+    <path d="M198 165 Q200 173 203 173" stroke="#D97706" stroke-width="2" fill="none" stroke-linecap="round" />
+
+    <!-- Friendly Smile -->
+    <path d="M188 184 Q200 196 212 184" stroke="#9A3412" stroke-width="3.5" fill="none" stroke-linecap="round" />
+
+    <!-- Cute Blush -->
+    <circle cx="165" cy="172" r="6" fill="#F87171" opacity="0.4" />
+    <circle cx="235" cy="172" r="6" fill="#F87171" opacity="0.4" />
+  </g>
+
+  <!-- Laptop in front with code logo -->
+  <g transform="translate(145, 305)">
+    <rect x="0" y="10" width="110" height="45" rx="4" fill="#64748B" />
+    <rect x="5" y="14" width="100" height="35" rx="2" fill="#0F172A" />
+    <text x="55" y="36" font-family="monospace" font-size="14" font-weight="bold" fill="#38BDF8" text-anchor="middle">&lt;/&gt;</text>
+    <path d="M -10 55 L 120 55 L 115 62 L -5 62 Z" fill="#94A3B8" />
+  </g>
+</svg>

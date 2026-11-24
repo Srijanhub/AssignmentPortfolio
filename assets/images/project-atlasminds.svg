@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="am-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19" />
+      <stop offset="60%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#1E3A8A" />
+    </linearGradient>
+  </defs>
+  <rect width="500" height="300" rx="16" fill="url(#am-grad)" />
+
+  <!-- Platform Frame -->
+  <rect x="35" y="25" width="430" height="250" rx="10" fill="#030712" stroke="#2563EB" stroke-width="1.5" />
+  
+  <!-- Header Bar -->
+  <rect x="35" y="25" width="430" height="36" rx="10" fill="#0F172A" />
+  <circle cx="55" cy="43" r="5" fill="#EF4444" />
+  <circle cx="73" cy="43" r="5" fill="#F59E0B" />
+  <circle cx="91" cy="43" r="5" fill="#10B981" />
+  <text x="115" y="47" font-family="sans-serif" font-size="12" font-weight="bold" fill="#F8FAFC">AtlasMinds • Future Minds Mentorship</text>
+  <rect x="330" y="33" width="120" height="20" rx="10" fill="#1E40AF" />
+  <text x="390" y="47" font-family="sans-serif" font-size="9" font-weight="bold" fill="#DBEAFE" text-anchor="middle">BossCoder Backed</text>
+
+  <!-- Left: 3D Crystal / AI Core Concept illustration -->
+  <g transform="translate(60, 80)">
+    <polygon points="65,15 115,45 115,105 65,135 15,105 15,45" fill="#1E293B" stroke="#60A5FA" stroke-width="2" />
+    <polygon points="65,15 115,45 65,75 15,45" fill="#3B82F6" opacity="0.3" />
+    <polygon points="65,75 115,45 115,105 65,135" fill="#1D4ED8" opacity="0.4" />
+    <polygon points="65,75 15,45 15,105 65,135" fill="#2563EB" opacity="0.5" />
+    <circle cx="65" cy="75" r="8" fill="#E5B887" />
+    <text x="65" y="160" font-family="sans-serif" font-size="10" fill="#93C5FD" text-anchor="middle">Agentic STEM Core</text>
+  </g>
+
+  <!-- Right: Tracks & Modules -->
+  <g transform="translate(210, 80)">
+    <rect x="0" y="0" width="235" height="45" rx="6" fill="#111827" stroke="#374151" />
+    <text x="15" y="20" font-family="sans-serif" font-size="11" font-weight="bold" fill="#F59E0B">🐍 Level 1: Python Explorer</text>
+    <text x="15" y="35" font-family="sans-serif" font-size="9" fill="#9CA3AF">Foundations, Computational Logic &amp; Syntax</text>
+
+    <rect x="0" y="55" width="235" height="45" rx="6" fill="#111827" stroke="#2563EB" />
+    <text x="15" y="75" font-family="sans-serif" font-size="11" font-weight="bold" fill="#60A5FA">🤖 Level 2: AI Agent Builder</text>
+    <text x="15" y="90" font-family="sans-serif" font-size="9" fill="#9CA3AF">Tools, APIs, Prompt Systems &amp; Automation</text>
+
+    <rect x="0" y="110" width="235" height="45" rx="6" fill="#111827" stroke="#374151" />
+    <text x="15" y="130" font-family="sans-serif" font-size="11" font-weight="bold" fill="#34D399">🚀 Level 3: Real-World Creator</text>
+    <text x="15" y="145" font-family="sans-serif" font-size="9" fill="#9CA3AF">Deployment, Capstone Showcase &amp; Mentorship</text>
+  </g>
+</svg>

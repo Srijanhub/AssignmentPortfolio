@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p1-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312E81" />
+      <stop offset="100%" stop-color="#4C1D95" />
+    </linearGradient>
+  </defs>
+  <rect width="500" height="300" rx="16" fill="url(#p1-bg)" />
+  <!-- Browser Frame -->
+  <rect x="30" y="25" width="440" height="250" rx="10" fill="#0F172A" stroke="#475569" stroke-width="2" />
+  <!-- Browser header -->
+  <rect x="30" y="25" width="440" height="32" rx="10" fill="#1E293B" />
+  <circle cx="50" cy="41" r="5" fill="#EF4444" />
+  <circle cx="68" cy="41" r="5" fill="#F59E0B" />
+  <circle cx="86" cy="41" r="5" fill="#10B981" />
+  <rect x="110" y="33" width="220" height="16" rx="8" fill="#334155" />
+  <text x="120" y="45" font-family="sans-serif" font-size="10" fill="#94A3B8">srijanhalder.dev/portfolio</text>
+
+  <!-- Website preview inside -->
+  <rect x="50" y="75" width="120" height="20" rx="4" fill="#6366F1" />
+  <rect x="50" y="105" width="220" height="12" rx="3" fill="#E2E8F0" />
+  <rect x="50" y="125" width="180" height="8" rx="2" fill="#94A3B8" />
+  <rect x="50" y="140" width="150" height="8" rx="2" fill="#94A3B8" />
+  <rect x="50" y="165" width="80" height="24" rx="6" fill="#8B5CF6" />
+
+  <!-- Avatar card inside preview -->
+  <circle cx="370" cy="130" r="45" fill="#6366F1" opacity="0.3" />
+  <circle cx="370" cy="130" r="35" fill="#4F46E5" />
+  <text x="370" y="137" font-family="monospace" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">&lt;/&gt;</text>
+
+  <!-- Feature cards inside preview -->
+  <rect x="50" y="210" width="115" height="45" rx="6" fill="#1E293B" stroke="#334155" />
+  <rect x="175" y="210" width="115" height="45" rx="6" fill="#1E293B" stroke="#334155" />
+  <rect x="300" y="210" width="140" height="45" rx="6" fill="#1E293B" stroke="#334155" />
+</svg>
