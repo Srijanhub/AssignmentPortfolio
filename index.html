@@ -8,165 +8,152 @@
 </head>
 <body>
 
-  <!-- Navigation Bar -->
+  <!-- Header and Navigation -->
   <header>
-    <div class="nav-container">
-      <div class="nav-logo">
-        <a href="#home"><strong>Srijan Halder</strong></a>
+    <div class="container">
+      <div class="site-title">
+        <h1>Srijan Halder</h1>
+        <p>First-Year B.Tech Computer Science Student | BossCoder School of Technology</p>
       </div>
-      <nav class="nav-menu">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contributions">Open Source</a>
-        <a href="#hobbies">Hobbies</a>
-        <a href="#achievements">Achievements</a>
+      <nav class="nav-bar">
+        <a href="#home">Home</a> |
+        <a href="#about">About Me</a> |
+        <a href="#education">Education</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#projects">Projects</a> |
+        <a href="#contributions">Open Source</a> |
+        <a href="#hobbies">Hobbies</a> |
+        <a href="#achievements">Achievements</a> |
         <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
-  <!-- Main Content -->
-  <main class="main-wrapper">
+  <div class="container main-content">
 
     <!-- 1. Home Section -->
-    <section id="home" class="section">
-      <div class="hero-box">
-        <div class="hero-left">
-          <h1>Srijan Halder</h1>
-          <p class="subtitle">First-Year B.Tech Computer Science Student</p>
-          <p class="college-name">BossCoder School of Technology (2026 – 2030)</p>
-          
-          <p class="intro-paragraph">
-            Hello and welcome to my personal website. I am a 1st semester student learning the basics of computer science and web development. I enjoy writing code in C and Python, understanding how computers work, and building simple projects.
+    <section id="home" class="content-section">
+      <h2>Home</h2>
+      <div class="home-container">
+        <div class="home-text">
+          <p><strong>Name:</strong> Srijan Halder</p>
+          <p><strong>Department:</strong> Computer Science and Engineering</p>
+          <p><strong>Institution:</strong> BossCoder School of Technology</p>
+          <p><strong>Academic Year:</strong> 2026 - 2030 (First Year / Semester 1)</p>
+          <p>
+            Welcome to my personal portfolio website. I am an undergraduate computer science student learning the core foundations of programming and web development. This website was created using basic HTML and CSS to display my academic profile, skills, projects, and contact details.
           </p>
-
-          <div class="home-links">
-            <a href="#about" class="btn">About Me</a>
-            <a href="#projects" class="btn">My Projects</a>
-            <a href="#contact" class="btn">Contact Me</a>
-          </div>
-
-          <p class="contact-quick">
-            Email: <a href="mailto:onlinesrijanhalder@gmail.com">onlinesrijanhalder@gmail.com</a> | 
-            GitHub: <a href="https://github.com/Srijanhub" target="_blank" rel="noopener noreferrer">github.com/Srijanhub</a>
+          <p>
+            <strong>Quick Navigation:</strong>
+            <a href="#about">Read About Me</a> | 
+            <a href="#projects">View My Projects</a> | 
+            <a href="#contact">Contact Information</a>
           </p>
         </div>
-
-        <div class="hero-right">
-          <img src="assets/images/profile-avatar.svg" alt="Profile Picture of Srijan Halder" class="profile-img">
+        <div class="home-photo">
+          <img src="assets/images/profile-avatar.svg" alt="Photo of Srijan Halder" class="profile-picture">
         </div>
       </div>
     </section>
-
-    <hr>
 
     <!-- 2. About Me Section -->
-    <section id="about" class="section">
+    <section id="about" class="content-section">
       <h2>About Me</h2>
       <p>
-        My name is Srijan Halder. I recently started my undergraduate studies in Computer Science and Engineering at BossCoder School of Technology.
+        My name is Srijan Halder. I am currently enrolled in the first semester of the B.Tech Computer Science and Engineering program at BossCoder School of Technology.
       </p>
       <p>
-        In my first semester, I am focusing on building a solid understanding of programming fundamentals. We are currently studying C programming, engineering mathematics, and digital logic. Outside of class, I spend my time learning HTML and CSS, practicing problem solving, and exploring open-source projects on GitHub.
+        My primary academic focus this semester is understanding procedural programming in C, computational mathematics, and digital logic design. Alongside my coursework, I practice web development with basic HTML and CSS, and explore software development through open-source projects on GitHub.
       </p>
-
-      <div class="details-grid">
-        <div class="detail-box">
-          <h3>Current Focus</h3>
-          <p>Mastering core programming concepts in C, learning data structures, and building web pages from scratch.</p>
-        </div>
-        <div class="detail-box">
-          <h3>Academic Goals</h3>
-          <p>Maintain consistent academic performance, complete weekly coding assignments, and build real-world software tools.</p>
-        </div>
-        <div class="detail-box">
-          <h3>Areas of Interest</h3>
-          <p>Web Development, Problem Solving, Software Tooling, and Open Source Collaboration.</p>
-        </div>
-      </div>
+      <p>
+        <strong>Academic Goals:</strong> To build a solid foundation in Data Structures, Algorithms, and Systems programming, while consistently completing lab assignments and building functional software utilities.
+      </p>
+      <p>
+        <strong>Areas of Interest:</strong> Web Development, Systems Programming in C, Python Scripting, and Open Source Software.
+      </p>
     </section>
-
-    <hr>
 
     <!-- 3. Education Section -->
-    <section id="education" class="section">
+    <section id="education" class="content-section">
       <h2>Education</h2>
 
-      <div class="card">
+      <div class="entry-block">
         <h3>Bachelor of Technology (B.Tech) in Computer Science</h3>
-        <p><strong>Institution:</strong> BossCoder School of Technology</p>
-        <p><strong>Duration:</strong> 2026 – 2030 (Currently in 1st Semester)</p>
-        <p><strong>Key Coursework:</strong> Problem Solving &amp; C Programming, Engineering Mathematics I, Digital Electronics, Basics of Web Development.</p>
+        <p><strong>College:</strong> BossCoder School of Technology</p>
+        <p><strong>Duration:</strong> 2026 - 2030 (Currently in 1st Semester)</p>
+        <p><strong>Current Coursework:</strong></p>
+        <ul>
+          <li>Problem Solving and C Programming</li>
+          <li>Engineering Mathematics I</li>
+          <li>Digital Electronics and Logic Circuits</li>
+          <li>Foundations of Computer Science</li>
+          <li>Web Development Basics (HTML and CSS)</li>
+        </ul>
       </div>
 
-      <div class="card">
-        <h3>Higher Secondary Education (Class 12)</h3>
+      <div class="entry-block">
+        <h3>Higher Secondary School Certificate (Class 12)</h3>
         <p><strong>Stream:</strong> Science (Physics, Chemistry, Mathematics, Computer Science)</p>
-        <p><strong>Duration:</strong> 2024 – 2026</p>
-        <p><strong>Details:</strong> Studied computer science basics and participated in school science exhibitions.</p>
+        <p><strong>Duration:</strong> 2024 - 2026</p>
+        <p><strong>Details:</strong> Studied calculus, mechanics, and introductory programming. Participated in the school science and coding exhibition.</p>
       </div>
 
-      <div class="card">
-        <h3>Secondary School Examination (Class 10)</h3>
-        <p><strong>Duration:</strong> 2022 – 2024</p>
-        <p><strong>Details:</strong> Completed general high school education with distinction in Mathematics and Science.</p>
+      <div class="entry-block">
+        <h3>Secondary School Certificate (Class 10)</h3>
+        <p><strong>Duration:</strong> 2022 - 2024</p>
+        <p><strong>Details:</strong> Completed general secondary education with strong performance in Mathematics and Science.</p>
       </div>
     </section>
 
-    <hr>
-
     <!-- 4. Skills Section -->
-    <section id="skills" class="section">
+    <section id="skills" class="content-section">
       <h2>Skills</h2>
-      <p>Here are the technical and non-technical skills I have practiced so far with my estimated level of confidence:</p>
+      <p>Overview of technical and non-technical skills acquired through college coursework and personal practice:</p>
 
       <h3>Technical Skills</h3>
-      <table class="skills-table">
+      <table class="data-table">
         <thead>
           <tr>
-            <th>Skill</th>
-            <th>Self-Rating</th>
-            <th>Notes</th>
+            <th>Skill Name</th>
+            <th>Proficiency Level</th>
+            <th>Description</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>HTML5</td>
             <td>90%</td>
-            <td>Semantic page layout, forms, tables, headings</td>
+            <td>Semantic elements, document structure, forms, tables</td>
           </tr>
           <tr>
             <td>CSS3</td>
             <td>80%</td>
-            <td>Styling, box model, margins, padding, simple responsive layouts</td>
+            <td>Box model, basic layouts, typography, simple tables and forms</td>
           </tr>
           <tr>
             <td>C Programming</td>
             <td>70%</td>
-            <td>Variables, loops, arrays, functions, pointers basics (College curriculum)</td>
+            <td>Syntax, conditional statements, loops, functions, arrays, pointers</td>
           </tr>
           <tr>
             <td>Python</td>
             <td>75%</td>
-            <td>Scripting, basic object-oriented programming, data structures</td>
+            <td>Basic scripting, control structures, object-oriented basics</td>
           </tr>
           <tr>
-            <td>Git &amp; GitHub</td>
+            <td>Git and GitHub</td>
             <td>75%</td>
-            <td>Repository creation, committing, pushing, branching, pull requests</td>
+            <td>Repository management, branching, committing, pushing, pull requests</td>
           </tr>
         </tbody>
       </table>
 
-      <h3>Soft Skills</h3>
-      <table class="skills-table">
+      <h3>Non-Technical Skills</h3>
+      <table class="data-table">
         <thead>
           <tr>
-            <th>Skill</th>
-            <th>Rating</th>
+            <th>Skill Name</th>
+            <th>Proficiency Level</th>
             <th>Description</th>
           </tr>
         </thead>
@@ -174,193 +161,185 @@
           <tr>
             <td>Teamwork</td>
             <td>90%</td>
-            <td>Working with classmates on group assignments and hackathons</td>
+            <td>Collaborating with peers on lab exercises and hackathon projects</td>
           </tr>
           <tr>
             <td>Communication</td>
             <td>85%</td>
-            <td>Explaining code clearly, asking questions, writing documentation</td>
+            <td>Writing project documentation and explaining technical concepts</td>
           </tr>
           <tr>
             <td>Problem Solving</td>
             <td>80%</td>
-            <td>Breaking down logic problems into small step-by-step solutions</td>
+            <td>Analyzing problem requirements and writing step-by-step algorithms</td>
           </tr>
           <tr>
-            <td>Willingness to Learn</td>
-            <td>95%</td>
-            <td>Eager to read documentation, accept feedback, and fix mistakes</td>
+            <td>Time Management</td>
+            <td>75%</td>
+            <td>Managing daily college schedules, assignments, and self-study</td>
           </tr>
         </tbody>
       </table>
     </section>
 
-    <hr>
-
     <!-- 5. Projects Section -->
-    <section id="projects" class="section">
+    <section id="projects" class="content-section">
       <h2>Projects</h2>
-      <p>Actual projects and tools I have built and worked on:</p>
+      <p>Summary of completed projects and hackathon submissions:</p>
 
-      <div class="project-item">
+      <div class="entry-block">
         <h3>1. ListingForge</h3>
         <p><strong>Technologies:</strong> Node.js, Express, Open-Source AI models, REST APIs</p>
         <p>
-          A project built to help small independent online sellers generate product titles and tags from photos without paying high fees for commercial APIs.
+          An e-commerce listing generator developed to assist online marketplace sellers in generating structured product descriptions and tags from product photographs.
         </p>
         <p>
-          <a href="https://github.com/Srijanhub/ListingForge" target="_blank" rel="noopener noreferrer">View on GitHub &rarr;</a>
+          <a href="https://github.com/Srijanhub/ListingForge" target="_blank" rel="noopener noreferrer">GitHub Repository Link</a>
         </p>
       </div>
 
-      <div class="project-item">
-        <h3>2. Mandate — AI Spending Firewall (PayPal Hackathon)</h3>
+      <div class="entry-block">
+        <h3>2. Mandate - AI Agent Spending Firewall (PayPal Hackathon 2026)</h3>
         <p><strong>Technologies:</strong> Python 3.11, FastAPI, PayPal Orders API, SQLite, Docker</p>
         <p>
-          Developed during the PayPal AI Hackathon with my teammate Vinay Khandia. A spending firewall designed to ensure autonomous AI shopping agents stay strictly within user-approved budget limits.
+          Built during the PayPal AI Hackathon with teammate Vinay Khandia. An API firewall that validates agent financial requests against user-defined rules and records immutable transaction receipts.
         </p>
         <p>
-          <a href="https://github.com/Srijanhub/mandate" target="_blank" rel="noopener noreferrer">View on GitHub &rarr;</a>
+          <a href="https://github.com/Srijanhub/mandate" target="_blank" rel="noopener noreferrer">GitHub Repository Link</a>
         </p>
       </div>
 
-      <div class="project-item">
+      <div class="entry-block">
         <h3>3. AtlasMinds Platform</h3>
         <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
         <p>
-          An educational platform backed by BossCoder for STEM and Python mentoring. I contributed to the page layout and curriculum information displays.
+          An educational platform layout for student STEM mentoring backed by BossCoder School of Technology. Contributed to page structure and curriculum displays.
         </p>
         <p>
-          <a href="https://github.com/Srijanhub" target="_blank" rel="noopener noreferrer">View on GitHub &rarr;</a>
-        </p>
-      </div>
-
-      <div class="project-item">
-        <h3>4. DayPilot Student Desk</h3>
-        <p><strong>Technologies:</strong> Python, macOS automation</p>
-        <p>
-          A personal utility program created to keep track of daily BossCoder syllabus modules, log study hours, and help maintain focus during semester exam preparation.
-        </p>
-        <p>
-          <a href="https://github.com/Srijanhub" target="_blank" rel="noopener noreferrer">View on GitHub &rarr;</a>
+          <a href="https://github.com/Srijanhub" target="_blank" rel="noopener noreferrer">GitHub Profile Link</a>
         </p>
       </div>
 
-      <div class="project-item">
-        <h3>5. Personal Portfolio Website</h3>
-        <p><strong>Technologies:</strong> Semantic HTML, Basic CSS</p>
+      <div class="entry-block">
+        <h3>4. DayPilot Student Study Tracker</h3>
+        <p><strong>Technologies:</strong> Python, macOS Scripting, JSON</p>
         <p>
-          This website. Created as part of the Web Development Assignment 1 for BossCoder School of Technology. Contains all 11 required sections with minimal, clean code.
+          A personal command-line utility used to log study hours, track BossCoder syllabus progress, and organize daily academic milestones.
         </p>
         <p>
-          <a href="https://github.com/Srijanhub/AssignmentPortfolio" target="_blank" rel="noopener noreferrer">View on GitHub &rarr;</a>
+          <a href="https://github.com/Srijanhub" target="_blank" rel="noopener noreferrer">GitHub Profile Link</a>
+        </p>
+      </div>
+
+      <div class="entry-block">
+        <h3>5. Personal Portfolio Website (Assignment 1)</h3>
+        <p><strong>Technologies:</strong> Pure HTML5, Basic CSS3</p>
+        <p>
+          This website, built for the BossCoder Web Development Assignment. It contains all required sections formatted with clean, basic HTML and black-and-white CSS.
+        </p>
+        <p>
+          <a href="https://github.com/Srijanhub/AssignmentPortfolio" target="_blank" rel="noopener noreferrer">GitHub Repository Link</a>
         </p>
       </div>
     </section>
-
-    <hr>
 
     <!-- 6. Open Source Section -->
-    <section id="contributions" class="section">
+    <section id="contributions" class="content-section">
       <h2>Open Source Exploration</h2>
-      <p>Repositories I have forked and explored on GitHub to learn from production codebases:</p>
-
+      <p>Open-source repositories explored and forked on GitHub to study production code architecture:</p>
       <ul>
         <li>
-          <strong>Netflix / hollow:</strong> Explored in-memory caching architecture. 
-          (<a href="https://github.com/Srijanhub/hollow" target="_blank" rel="noopener noreferrer">My Fork</a>)
+          <strong>Netflix / hollow:</strong> Explored in-memory caching framework mechanics. 
+          (<a href="https://github.com/Srijanhub/hollow" target="_blank" rel="noopener noreferrer">Repository Fork</a>)
         </li>
         <li>
-          <strong>django / djangoproject.com:</strong> Looked at how the official Django community website is structured. 
-          (<a href="https://github.com/Srijanhub/djangoproject.com" target="_blank" rel="noopener noreferrer">My Fork</a>)
+          <strong>django / djangoproject.com:</strong> Studied community website architecture and documentation contribution standards. 
+          (<a href="https://github.com/Srijanhub/djangoproject.com" target="_blank" rel="noopener noreferrer">Repository Fork</a>)
         </li>
         <li>
-          <strong>psf / pyperf:</strong> Studied Python benchmarking tools and performance testing scripts. 
-          (<a href="https://github.com/Srijanhub/pyperf" target="_blank" rel="noopener noreferrer">My Fork</a>)
+          <strong>psf / pyperf:</strong> Examined official Python benchmarking tools and performance testing scripts. 
+          (<a href="https://github.com/Srijanhub/pyperf" target="_blank" rel="noopener noreferrer">Repository Fork</a>)
         </li>
         <li>
-          <strong>apache / shardingsphere:</strong> Looked through Apache's distributed database project repository. 
-          (<a href="https://github.com/srijanhub/shardingsphere" target="_blank" rel="noopener noreferrer">My Fork</a>)
+          <strong>apache / shardingsphere:</strong> Explored Apache distributed database and SQL proxy code structures. 
+          (<a href="https://github.com/srijanhub/shardingsphere" target="_blank" rel="noopener noreferrer">Repository Fork</a>)
         </li>
       </ul>
     </section>
-
-    <hr>
 
     <!-- 7. Hobbies Section -->
-    <section id="hobbies" class="section">
+    <section id="hobbies" class="content-section">
       <h2>Hobbies and Interests</h2>
-      <p>Activities I enjoy in my free time outside of classes:</p>
-
+      <p>Personal interests and activities outside of academic classes:</p>
       <ul>
-        <li><strong>Reading Tech Blogs:</strong> Reading developer articles on Dev.to and programming discussions on Reddit.</li>
-        <li><strong>Casual Photography:</strong> Taking photos of campus and nature on my phone.</li>
-        <li><strong>Chess:</strong> Playing 10-minute online rapid games on Chess.com with friends.</li>
-        <li><strong>Music:</strong> Listening to lo-fi and background music while studying or writing code.</li>
-        <li><strong>Table Tennis:</strong> Playing casual matches in the college common room with classmates.</li>
+        <li><strong>Reading Technical Articles:</strong> Reading technical posts on Dev.to and programming discussions on Reddit.</li>
+        <li><strong>Photography:</strong> Taking outdoor and campus photos with a mobile camera.</li>
+        <li><strong>Chess:</strong> Playing 10-minute online games on Chess.com.</li>
+        <li><strong>Music:</strong> Listening to instrumental and lo-fi audio tracks during study sessions.</li>
+        <li><strong>Table Tennis:</strong> Playing casual games with classmates in the student common area.</li>
       </ul>
     </section>
-
-    <hr>
 
     <!-- 8. Achievements Section -->
-    <section id="achievements" class="section">
+    <section id="achievements" class="content-section">
       <h2>Achievements</h2>
       <ul>
-        <li><strong>2026:</strong> PayPal AI Hackathon Participant (Mandate Team Project).</li>
-        <li><strong>2026:</strong> Hacktoberfest Open Source Participant.</li>
-        <li><strong>2026:</strong> Admitted to B.Tech Computer Science at BossCoder School of Technology.</li>
-        <li><strong>2025:</strong> Inter-School Science &amp; Coding Exhibition — 1st Runner Up.</li>
+        <li><strong>2026:</strong> Participant in PayPal AI Hackathon (Project: Mandate Spending Firewall).</li>
+        <li><strong>2026:</strong> Participant in Hacktoberfest Open Source Month.</li>
+        <li><strong>2026:</strong> Enrolled in B.Tech Computer Science at BossCoder School of Technology.</li>
+        <li><strong>2025:</strong> First Runner-Up in Inter-School Science and Coding Exhibition.</li>
       </ul>
     </section>
 
-    <hr>
-
     <!-- 9. Contact Section -->
-    <section id="contact" class="section">
-      <h2>Contact Me</h2>
-      <p>If you have any advice for a first-year student or feedback on my work, please reach out:</p>
+    <section id="contact" class="content-section">
+      <h2>Contact Information</h2>
+      <p>For inquiries, feedback, or academic discussions, please refer to the details below:</p>
 
-      <div class="contact-info">
-        <p><strong>Email:</strong> <a href="mailto:onlinesrijanhalder@gmail.com">onlinesrijanhalder@gmail.com</a></p>
-        <p><strong>GitHub:</strong> <a href="https://github.com/Srijanhub" target="_blank" rel="noopener noreferrer">https://github.com/Srijanhub</a></p>
-        <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/srijanhalder" target="_blank" rel="noopener noreferrer">https://linkedin.com/in/srijanhalder</a></p>
-        <p><strong>College:</strong> BossCoder School of Technology, Kolkata, India</p>
+      <div class="contact-box">
+        <p><strong>Email Address:</strong> <a href="mailto:onlinesrijanhalder@gmail.com">onlinesrijanhalder@gmail.com</a></p>
+        <p><strong>GitHub Profile:</strong> <a href="https://github.com/Srijanhub" target="_blank" rel="noopener noreferrer">https://github.com/Srijanhub</a></p>
+        <p><strong>LinkedIn Profile:</strong> <a href="https://linkedin.com/in/srijanhalder" target="_blank" rel="noopener noreferrer">https://linkedin.com/in/srijanhalder</a></p>
+        <p><strong>Institution:</strong> BossCoder School of Technology, Kolkata, India</p>
       </div>
 
-      <h3>Send a Message</h3>
-      <form action="#" method="post" class="contact-form">
-        <div class="form-row">
-          <label for="name">Your Name:</label>
-          <input type="text" id="name" name="name" required placeholder="e.g. Arun Kumar">
+      <h3>Contact Form</h3>
+      <form action="#" method="post" class="basic-form">
+        <div class="form-group">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" required placeholder="Enter your full name">
         </div>
 
-        <div class="form-row">
-          <label for="email">Your Email:</label>
-          <input type="email" id="email" name="email" required placeholder="e.g. name@example.com">
+        <div class="form-group">
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required placeholder="Enter your email address">
         </div>
 
-        <div class="form-row">
+        <div class="form-group">
           <label for="subject">Subject:</label>
-          <input type="text" id="subject" name="subject" placeholder="Subject of your message">
+          <input type="text" id="subject" name="subject" placeholder="Enter message subject">
         </div>
 
-        <div class="form-row">
+        <div class="form-group">
           <label for="message">Message:</label>
-          <textarea id="message" name="message" rows="5" required minlength="10" placeholder="Write your message here..."></textarea>
+          <textarea id="message" name="message" rows="5" required minlength="10" placeholder="Type your message here..."></textarea>
         </div>
 
-        <button type="submit" class="btn">Submit Message</button>
+        <div>
+          <button type="submit" class="submit-button">Submit Message</button>
+        </div>
       </form>
     </section>
 
-  </main>
+  </div>
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2026 Srijan Halder. B.Tech Computer Science Student.</p>
-    <p>BossCoder School of Technology — Web Development Project (Assignment 1)</p>
-    <p><a href="#home">Back to Top &uarr;</a></p>
+    <div class="container">
+      <p>&copy; 2026 Srijan Halder. B.Tech Computer Science Student.</p>
+      <p>BossCoder School of Technology - Web Development Project Assignment 1.</p>
+      <p><a href="#home">Back to top</a></p>
+    </div>
   </footer>
 
 </body>
