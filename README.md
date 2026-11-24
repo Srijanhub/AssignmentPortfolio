@@ -1,5 +1,5 @@
 # Personal Portfolio Website - Srijan Halder
-### Web Development Assignment 1 - BossCoder School of Technology
+### Web Development Assignment 1 - Bosscoder School of Technology, Bangalore
 
 A minimalist personal portfolio website built with basic HTML and CSS only. Zero JavaScript, zero animations, no emojis, standard document layout, and pure black-and-white styling.
 
@@ -7,7 +7,7 @@ A minimalist personal portfolio website built with basic HTML and CSS only. Zero
 
 ## Student Information
 - Name: Srijan Halder
-- Institution: BossCoder School of Technology
+- Institution: Bosscoder School of Technology, Bangalore
 - Degree: B.Tech in Computer Science and Engineering (Year 1, Semester 1)
 - GitHub: https://github.com/Srijanhub
 - Email: onlinesrijanhalder@gmail.com
@@ -17,7 +17,7 @@ A minimalist personal portfolio website built with basic HTML and CSS only. Zero
 ## Sections Included
 1. Home Section: Student name, department, institution, introduction, and profile picture.
 2. About Me Section: Personal introduction, semester coursework focus, and academic goals.
-3. Education Section: Educational background (BossCoder School of Technology B.Tech, Class 12, Class 10).
+3. Education Section: Educational background (Bosscoder School of Technology, Bangalore B.Tech, Class 12, Class 10).
 4. Skills Section: Technical and non-technical skills structured in standard bordered HTML tables.
 5. Projects Section: Actual student projects (ListingForge, Mandate PayPal Hackathon project, AtlasMinds, DayPilot, Personal Portfolio) with descriptions and repository links.
 6. Open Source Exploration: Upstream forks and study repositories (Netflix Hollow, Django, PyPerf, Apache ShardingSphere).

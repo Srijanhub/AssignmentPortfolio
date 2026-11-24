@@ -108,8 +108,9 @@ p {
 }
 
 .profile-picture {
-  width: 130px;
-  height: 130px;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
   border: 1px solid #000000;
   filter: grayscale(100%);
   display: block;
